@@ -1,0 +1,32 @@
+{
+  "name": "@thexdev/use-workflows",
+  "description": "Instead of manually copy your workflows files, just type it on CLI and you're ready to go.",
+  "main": "bin/index.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "test": "jest"
+  },
+  "bin": {
+    "use-workflows": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thexdev/use-workflows.git"
+  },
+  "keywords": [
+    "GitHub",
+    "Workflows",
+    "GitHub",
+    "Actions"
+  ],
+  "author": "M. Akbar Nugroho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thexdev/use-workflows/issues"
+  },
+  "homepage": "https://github.com/thexdev/use-workflows#readme",
+  "devDependencies": {
+    "jest": "^29.6.4",
+    "prettier": "^3.0.3"
+  }
+}
